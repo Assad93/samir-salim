@@ -2,7 +2,6 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import PortfolioItem from "../PortfolioItem";
-import Swiper from "../Swiper";
 import styles from "./Portfolio.module.css";
 
 export interface IRepository {
@@ -56,6 +55,7 @@ const Portfolio: React.FC = (props) => {
         href="https://github.com/Assad93/"
         className={styles.portfolio__link}
         target="_blank"
+        rel="noreferrer"
       >
         <span>+ no</span>
         <FaGithub size={40} />

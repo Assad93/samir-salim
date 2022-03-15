@@ -18,10 +18,14 @@ const About: React.FC = () => {
         principalmente, de café :-).
       </p>
       <div className={styles.about__socialMedia}>
-        <a href="https://github.com/Assad93" target="_blank">
+        <a href="https://github.com/Assad93" target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/devsalim/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/devsalim/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedin />
         </a>
         <a href="mailto:devsalim93@gmail.com">
