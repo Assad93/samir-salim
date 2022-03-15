@@ -1,0 +1,42 @@
+.course__box {
+  width: 27rem;
+  margin: 4rem 1rem;
+  padding-left: 4rem;
+  border-left: 0.2rem solid var(--secondary-color);
+  position: relative;
+}
+
+.course__box span {
+  font-size: 1.3rem;
+  background-color: var(--secondary-color);
+  color: #fff;
+  border-radius: 5rem;
+  padding: 0.5rem 2.5rem;
+}
+
+.course__box h3 {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  padding-top: 1.5rem;
+}
+
+.course__box p {
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+  padding: 1rem 0;
+}
+
+.course__icon {
+  padding: 1rem;
+  position: absolute;
+  top: -1.5rem;
+  left: -2.5rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  line-height: 5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  background-color: var(--primary-color);
+}

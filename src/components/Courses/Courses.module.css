@@ -1,0 +1,29 @@
+.courses__heading {
+  text-align: center;
+  margin: 0 6rem;
+  text-transform: uppercase;
+  font-size: 4rem;
+  padding: 1rem;
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.courses__heading span {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.courses__boxContainer {
+  display: flex;
+  align-items: center;
+  gap: 4rem 10rem;
+  flex-wrap: wrap;
+  padding: 1rem 0 1rem 3rem;
+}
+
+@media (max-width: 540px) {
+  .courses__heading {
+    font-size: 2.5rem;
+  }
+}
