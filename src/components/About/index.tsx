@@ -13,8 +13,8 @@ const About: React.FC = () => {
       </h1>
       <p className={styles.about__description}>
         Estou me formando em Sistemas de Informação pelo IFF e sou um
-        desenvolvedor front-end em busca da primeira oportunidade no mercado.
-        Gosto muito de desenvolver interfaces, de estudar coisas novas e,
+        desenvolvedor Javascript Full Stack em busca da primeira oportunidade no
+        mercado. Gosto muito de desenvolver sistemas, de estudar coisas novas e,
         principalmente, de café :-).
       </p>
       <div className={styles.about__socialMedia}>

@@ -1,15 +1,15 @@
 import React from "react";
 import {
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
   SiTypescript,
   SiReact,
   SiNextdotjs,
-  SiGit,
   SiExpo,
   SiJest,
   SiTestinglibrary,
+  SiNodedotjs,
+  SiPrisma,
+  SiMysql,
+  SiExpress,
 } from "react-icons/si";
 
 import styles from "./Skills.module.css";
@@ -24,32 +24,32 @@ const Skills: React.FC = () => {
         <h2>Usando</h2>
         <div className={styles.skills__grid}>
           <div className={styles.skills__item}>
-            <SiHtml5 />
-            <span>HTML</span>
+            <SiReact />
+            <span>React</span>
           </div>
           <div className={styles.skills__item}>
-            <SiCss3 />
-            <span>CSS</span>
-          </div>
-          <div className={styles.skills__item}>
-            <SiJavascript />
-            <span>Javascript</span>
+            <SiNodedotjs />
+            <span>Node</span>
           </div>
           <div className={styles.skills__item}>
             <SiTypescript />
             <span>Typescript</span>
           </div>
           <div className={styles.skills__item}>
-            <SiReact />
-            <span>React</span>
+            <SiMysql />
+            <span>MySQL</span>
+          </div>
+          <div className={styles.skills__item}>
+            <SiPrisma />
+            <span>Prisma</span>
           </div>
           <div className={styles.skills__item}>
             <SiNextdotjs />
             <span>Next.js</span>
           </div>
           <div className={styles.skills__item}>
-            <SiGit />
-            <span>Git</span>
+            <SiExpress />
+            <span>Express</span>
           </div>
         </div>
       </div>
