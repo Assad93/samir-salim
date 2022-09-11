@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
           className={styles.user__img}
         />
         <h3 className={styles.user__name}>Samir Salim</h3>
-        <p className={styles.user__description}>Full Stack Developer</p>
+        <p className={styles.user__description}>Desenvolvedor Front End</p>
       </div>
       <nav className={styles.navbar}>
         <ul className={styles.navbar__menu}>

@@ -16,8 +16,8 @@ const Courses: React.FC = () => {
         />
         <Course
           endYear="2022"
-          name="Curso de Typescript"
-          description="Formação de 40h em Typescript voltado para o front-end, na Alura."
+          name="Formação React com Typescript"
+          description="Curso de Front End fornecido pela Alura."
         />
         <Course
           endYear="2020"

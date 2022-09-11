@@ -12,10 +12,10 @@ const About: React.FC = () => {
         Meu nome é <span>Samir Salim</span>
       </h1>
       <p className={styles.about__description}>
-        Estou me formando em Sistemas de Informação pelo IFF e sou um
-        desenvolvedor Javascript Full Stack em busca da primeira oportunidade no
-        mercado. Gosto muito de desenvolver sistemas, de estudar coisas novas e,
-        principalmente, de café :-).
+        Sou um desenvolvedor Front End com habilidades em testes unitários,
+        metodologias ágeis e UX Design que atualmente está em busca da primeira
+        oportunidade no mercado. Gosto muito de desenvolver interfaces, de
+        estudar coisas novas, e, principalmente, de café :-).
       </p>
       <div className={styles.about__socialMedia}>
         <a href="https://github.com/Assad93" target="_blank" rel="noreferrer">
